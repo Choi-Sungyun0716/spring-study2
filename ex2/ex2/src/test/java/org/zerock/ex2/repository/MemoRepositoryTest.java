@@ -137,6 +137,7 @@ public class MemoRepositoryTest {
     @Transactional
     @Test
     public void testDeleteQueryMethods() {
+
         memoRepository.deleteMemoByMnoLessThan(10L);
     }
 
